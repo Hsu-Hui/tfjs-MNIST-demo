@@ -46,6 +46,8 @@ The model outputs the probability of each category. Here, find the highest proba
 ## Demo
 
 ### Create a web canvas to detect drawing numbers.
+[__Just Try It__](https://Hsu-hui.github.io/tfjs-MNIST-demo/index.html)
+
 <img src="images/TensorFlow.js_MNIST_Demo.gif">
 
 ## Source
