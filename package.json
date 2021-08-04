@@ -1,0 +1,14 @@
+{
+  "name": "tfjs-MNIST-demo",
+  "version": "1.0.0",
+  "description": "Deep learning models for MNIST",
+  "scripts": {
+    "start-client": "webpack && webpack-dev-server",
+    "start-server": "node script.js"
+  },
+  "devDependencies":  {
+    "@tensorflow/tfjs": "^3.8.0",
+    "@tensorflow/tfjs-vis": "^1.5.1"
+  }
+
+}
