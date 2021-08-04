@@ -1,5 +1,7 @@
 # tfjs-MNIST-demo
 
+![Tensorflow.js-version](https://img.shields.io/badge/Tensorflow.js-3.8.0-green.svg)
+
 ## Use CDN 
 ```javascript
 <!-- Import TensorFlow.js -->
@@ -41,3 +43,13 @@ The model outputs the probability of each category. Here, find the highest proba
 ### The average recognition accuracy rate is over __90%__
 <img src="images/Accuracy.png">
 
+## Demo
+
+### Create a web canvas to detect drawing numbers.
+<img src="images/TensorFlow.js_MNIST_Demo.gif">
+
+## Source
+
+[Tensorflow Official Tutorials](https://www.tensorflow.org/js/tutorials/training/handwritten_digit_cnn)
+
+[Tensorflow.js MNIST Example Github](https://github.com/tensorflow/tfjs-examples/tree/master/mnist)

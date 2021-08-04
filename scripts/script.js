@@ -137,7 +137,7 @@ async function train(model, data) {
 }
 
 const classNames = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
-
+//預測test data
 function doPrediction(model, data, testDataSize = 500) {
   const IMAGE_WIDTH = 28;
   const IMAGE_HEIGHT = 28;
@@ -150,7 +150,7 @@ function doPrediction(model, data, testDataSize = 500) {
   return [preds, labels];
 }
 
-
+//準確率
 async function showAccuracy(model, data) {
   const [preds, labels] = doPrediction(model, data);
   const classAccuracy = await tfvis.metrics.perClassAccuracy(labels, preds);
@@ -159,7 +159,7 @@ async function showAccuracy(model, data) {
 
   labels.dispose();
 }
-
+//混淆矩陣
 async function showConfusion(model, data) {
   const [preds, labels] = doPrediction(model, data);
   const confusionMatrix = await tfvis.metrics.confusionMatrix(labels, preds);

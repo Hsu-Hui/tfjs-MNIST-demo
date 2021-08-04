@@ -7,10 +7,16 @@
   <title>TensorFlow.js MNIST Demo</title>
     <!-- Import TensorFlow.js -->
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.8.0/dist/tf.min.js"></script>
- <script src="scripts/index.js"></script>
 </head>
 
 <body>
-  <canvas></canvas>
+  <h2>在下方畫板畫出數字，按"辨識數字"後網頁即可辨識出您畫的數字。<br/>Draw numbers on the drawing board below, click "Recognize Numbers" and the webpage will recognize the numbers you drew.</h2>
+  <span id="result" style="font-size:20px;margin:100px;"></span><br/>
+ <canvas id="canvas" width="ˇ350" height="350" style="border:1px solid black;">
+    Sorry, your browser doesn't support the &lt;canvas&gt; element.
+  </canvas>
+<button id="execute">辨識數字(Recognize Numbers)</button>
+<button id="clear">清除畫布(Clear Canvas)</button>
+   <script src="scripts/index.js"></script>
 </body>
 </html>
