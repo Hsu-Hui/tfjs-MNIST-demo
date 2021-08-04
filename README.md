@@ -11,6 +11,7 @@
 
 ## Load Data
 Each image is 28px wide 28px high and has a 1 color channel as it is a grayscale image. So the shape of each image is [28, 28, 1].
+
 <img src="images/Input_Data_Examples.png">
 
 
